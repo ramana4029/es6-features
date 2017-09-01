@@ -1,0 +1,73 @@
+# ES6
+
+Official name: ECMAScript 2015, It's the latest version of JavaScript, also known as ES2015.
+
+1. It's incrementally making its way into browsers.
+2. Node.js as of V4 has picked up much of it.
+3. babel.js can be used for older browsers, and includes a babel-node environment
+
+
+### Arrows
+	Arrows are a function shorthand using the `=>` syntax
+
+### Classes
+	ES6 classes are a simple sugar over the prototype-based object oriented pattern.Classes support prototype-based inheritance, super calls, instance and static methods and constructors.
+
+### enhanced object literals		
+	ECMAScript 6 makes declaring object literals even more details by providing shorthand syntax for initializing properties from variables and defining function methods. It also enables the ability to have computed property keys in an object literal definition.
+
+### template strings
+	Template strings provide syntactic sugar for constructing strings.
+
+### Destructuring
+	Destructuring allows binding using pattern matching, with support for matching arrays and objects.	
+
+### Default + Rest + Spread
+	Default parameter values
+	Turn an array into consecutive arguments in a function call. 
+	Bind trailing parameters to an array. 
+
+### Let + Const
+	let is a mathematical statement ex: Let there be x
+	const is Constant
+	var is Variable
+
+### Iterators + For..Of
+	The for...of statement creates a loop iterating over iterable objects (including Array, Map, Set, String, TypedArray, arguments object and so on)
+
+### Generators
+	Generators simplify iterator-authoring using function* and yield. A function declared as function* returns a Generator instance.
+	Generators are subtypes of iterators which include additional next and throw. These enable values to flow back into the generator, so yield is an expression form which returns a value (or throws).
+
+### Modules
+	support for modules for component definition. ex: export or import
+
+#### Map + Set + WeakMap + WeakSet
+	Efficient data structures for common algorithms. WeakMaps provides leak-free object-key’d side tables.
+	WeakMap allows garbage collector to do its task but not Map
+
+### Proxies
+	The Proxy object is used to define custom behavior for fundamental operations (e.g. property lookup, assignment, enumeration, function invocation, etc).
+
+### Symbols
+	//TODO
+
+### Subclassable Built-ins
+
+### Math + Number + String + Array + Object APIs
+	Many new library additions, including core Math libraries, Array conversion helpers, String helpers, and Object.assign for copying.
+
+### Promises
+	Promises are a library for asynchronous programming
+
+	
+Reference
+https://github.com/rse/es6-features	
+
+			
+
+
+
+	
+	
+	
